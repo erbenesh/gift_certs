@@ -1,0 +1,96 @@
+.contacts_form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    place-items: center;
+    row-gap: 20px;
+    margin: 5vh auto;
+    transition: .3s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    place-items: center;
+    row-gap: 20px;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 20px);
+    justify-content: space-between;
+    padding: 10px;
+}
+
+p[role="alert"] {
+    font-size: 12px;
+}
+
+input {
+    width: 40vmax;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .2s;
+    min-width: 320px;
+    max-width: 500px;
+    font-weight: 400;
+    background: transparent;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.back_button {
+    position: relative;
+    margin: auto auto 15vh 0;
+    font-size: 14px;
+    font-weight: 400;
+    width: auto;
+    padding: 10px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.back_button:hover {
+    background-color: rgb(197, 150, 49);
+}
+
+.to_pay_button{
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid transparent;
+    background-color: rgb(91, 175, 42);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.to_pay_button_off {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    transition: .2s;
+    pointer-events: none; 
+    background-color: rgb(31, 115, 42); 
+    color: grey;
+}
+
+.to_pay_button:hover {
+    background-color: rgb(94, 192, 38);
+}

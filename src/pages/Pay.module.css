@@ -1,0 +1,28 @@
+.pay {
+    display: flex;
+    flex-direction: column;
+    width: 40vmax;
+    text-align: center;
+    place-items: center;
+    row-gap: 20px;
+    margin: 5vh auto;
+}
+
+.back_button {
+    position: relative;
+    margin: auto auto 15vh 0;
+    font-size: 14px;
+    font-weight: 400;
+    width: auto;
+    padding: 10px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.back_button:hover {
+    background-color: rgb(197, 150, 49);
+}
